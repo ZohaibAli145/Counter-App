@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: rgb(179, 174, 169);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .counter{
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+.container .counter p {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.container .buttons{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.container .buttons button{
+    font-size: 1.5rem;
+    padding: 0.5rem , 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.container .buttons button#add{
+    background-color: #21c84b;
+    color: white;
+}
+
+.container .buttons button#Reset{
+    background-color: #5d727d;
+    color: white;
+}
+
+.container .buttons button#sub{
+    background-color: rgb(213, 94, 30);
+    color: white;
+}
